@@ -3,7 +3,7 @@ export interface ProductDTO {
   name: string;
   description?: string;
   price: number;
-  image?: string;
+  picture?: string;
   categoryId: string;
   active: boolean;
 }
